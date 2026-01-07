@@ -1,0 +1,100 @@
+############################
+# .NET / Visual Studio
+############################
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+
+############################
+# Build / Publish outputs
+############################
+artifacts/
+publish/
+out/
+dist/
+
+############################
+# Rider / VS Code
+############################
+.idea/
+.vscode/
+*.code-workspace
+
+############################
+# OS generated files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# NuGet
+############################
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+############################
+# ASP.NET Core
+############################
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+secrets.json
+*.pfx
+*.key
+*.crt
+
+############################
+# Logs
+############################
+logs/
+*.log
+stdout/
+
+############################
+# IIS / Hosting
+############################
+web.config
+web.Debug.config
+web.Release.config
+
+############################
+# SQL / Local DB
+############################
+*.mdf
+*.ldf
+*.bak
+
+############################
+# Test results / coverage
+############################
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+############################
+# Temporary / backup files
+############################
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
